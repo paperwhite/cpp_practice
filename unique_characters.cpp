@@ -9,7 +9,8 @@ int main()
     cout << "Input string:\n";
     cin >> input_str;
     
-    // Assuming 256 ASCII characters pesent in string 
+    // For any of 256 ASCII characters present in string, create a bitset 
+    // Initialize all bits with 0
     bitset<256> bset(0);
     
     for(int i = 0; i< input_str.length(); i++){
